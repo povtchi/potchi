@@ -47,8 +47,12 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+
 def try_me():
     print('potchi de poche')
+
+def nadege(int):
+    return int*2
 
 
 if __name__ == '__main__':
