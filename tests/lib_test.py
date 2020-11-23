@@ -20,4 +20,4 @@ def test_clean_data():
     assert out.shape == (985, 119)
 
 def test_nadege():
-    assert nadege(3) == 28
+    assert nadege(3) == 9
