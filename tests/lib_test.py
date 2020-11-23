@@ -7,6 +7,7 @@ import pandas as pd
 # Import from our lib
 from potchi.lib import clean_data
 import pytest
+from potchi.lib import nadege
 
 
 def test_clean_data():
